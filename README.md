@@ -26,6 +26,8 @@ The Proxy pattern will immediately display a low-quality version of the image an
 ### **Bonus**
 A Protection Proxy was added to ensure that only logged-in agents can upload or replace images. If an agent is not logged in, the image upload is rejected.
 
+---
+
 ## 2. Flyweight Pattern
 ### **Problem:**
 A map application needs to render thousands of location markers (e.g., hospitals, restaurants). Creating a new object for each marker is memory-intensive.
